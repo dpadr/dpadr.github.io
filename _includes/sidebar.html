@@ -6,11 +6,15 @@
           {{ site.title }}
         </a>
       </h2>
-      <p class="lead">{{ site.description }}</p>
+      <p class="lead">but its a start</p>
+      <p class="lead">you can always <a href="mailto:dognotreply@gmail.com"> email me</a> or
+        <a href="https://discord.gg/AUABatv"> chat me on discord</a>
+      </p>
+
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">home</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -26,9 +30,6 @@
         {% endif %}
       {% endfor %}
 
-
     </nav>
-
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>

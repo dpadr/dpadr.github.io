@@ -8,8 +8,8 @@ relative_permalinks: false
 
 # Setup
 title:            this is not the content
-tagline:          'a'
-description:      'we willingly donate to “social" platforms includes the best part of you — YOU. we’ve made those platforms precisely as valuable as they are by giving away large parts of ourselves (not to mention our data, privacy, friends and attention). this is my attempt to short circuit the wires, to present what I have to YOU, while remaining firmly divested from them. of course, this too is a cheap facsimile — this is not the content — but it’s what we’ve got.'
+tagline:          ''
+description:      ''
 url:              http://dpadr.github.io
 baseurl:          /
 
