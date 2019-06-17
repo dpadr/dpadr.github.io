@@ -1,21 +1,21 @@
 # Dependencies
 markdown:         redcarpet
-highlighter:      pygments
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
 relative_permalinks: false
 
 # Setup
-title:            weiner pee
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+title:            this is not the content
+tagline:          'a'
+description:      'we willingly donate to “social" platforms includes the best part of you — YOU. we’ve made those platforms precisely as valuable as they are by giving away large parts of ourselves (not to mention our data, privacy, friends and attention). this is my attempt to short circuit the wires, to present what I have to YOU, while remaining firmly divested from them. of course, this too is a cheap facsimile — this is not the content — but it’s what we’ve got.'
+url:              http://dpadr.github.io
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'David'
+  url:
 
 paginate:         5
 
