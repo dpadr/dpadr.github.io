@@ -24,6 +24,43 @@
  * Themes
  */
 
+/*
+my wacky stuff
+*/
+
+/* for testing
+* {
+ outline:1px red solid;
+}
+*/
+
+.post-date {
+  text-transform:lowercase;
+}
+
+/* #full allows full width images */
+.posts img[src$="#full"]{
+  margin-left:-1rem;
+  border-radius:0px;
+  width:100vw;
+  max-width:none;
+  margin-bottom:-2.5rem;
+}
+
+@media (min-width: 48em) {
+  .posts img[src$="#full"]{
+    margin-left:-3rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .posts img[src$="#full"]{
+    margin-left:-5rem;
+  }
+}
+.sidebar-sticky {
+}
+
 
 /*
  * Global resets
@@ -67,6 +104,8 @@ html {
     bottom: 0;
     width: 18rem;
     text-align: left;
+    background-color: transparent;
+    filter:invert(100%);
   }
 }
 
@@ -105,11 +144,12 @@ a.sidebar-nav-item:focus {
  * contents to the bottom of the sidebar in tablets and up.
  */
 
+
 @media (min-width: 48em) {
   .sidebar-sticky {
     position: absolute;
     right:  1rem;
-    bottom: 1rem;
+    top: 1rem;
     left:   1rem;
   }
 }
@@ -155,14 +195,14 @@ a.sidebar-nav-item:focus {
   }
   .layout-reverse .content {
     margin-left: 2rem;
-    margin-right: 20rem;
+    margin-right: 17rem;
   }
 }
 
 @media (min-width: 64em) {
   .layout-reverse .content {
     margin-left: 4rem;
-    margin-right: 22rem;
+    margin-right: 19rem;
   }
 }
 
