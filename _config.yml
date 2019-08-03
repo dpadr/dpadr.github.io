@@ -10,8 +10,8 @@ relative_permalinks: false
 title:            this is not the content
 tagline:          ''
 description:      ''
-url:              http://dpadr.github.io/
-baseurl:          http://dpadr.github.io/
+url:              https://dpadr.github.io/
+baseurl:          /
 
 author:
   name:           'David'
