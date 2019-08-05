@@ -3,6 +3,6 @@ layout: page
 title: resources
 ---
 
-https://www.duckduckgo.com/spread
+<https://duckduckgo.com/spread>
 
-https://www.wakingup.com
+<https://wakingup.com>
